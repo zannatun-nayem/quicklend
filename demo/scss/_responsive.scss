@@ -1,0 +1,141 @@
+@media (max-width: 1199.98px) {
+  // home section
+  .home-section {
+    .home-caption {
+      .home-title {
+        font-size: 42px;
+        line-height: 46px;
+      }
+    }
+    .home-form {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  // home section
+  .home-section {
+    .home-caption {
+      .loan-pricing-rate {
+        .loan-price {
+          .loan-priceing-one {
+            font-size: 24px;
+            line-height: 1;
+          }
+          small {
+            font-size: 60%;
+          }
+        }
+      }
+      .home-title {
+        font-size: 28px;
+        line-height: 32px;
+      }
+      .home-text {
+        font-size: 14px;
+      }
+    }
+    .home-form {
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+    .btn-secondary {
+      padding: 18px 22px;
+    }
+  }
+  section {
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 28px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+  .contact-section {
+
+      .contact-area{
+        .contact-form{
+          form{
+            padding: 80px 0;
+          }
+        }
+      }
+  }
+}
+
+@media (max-width: 767.98px) {
+  // home section
+  .home-section {
+    .home-caption {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .social-icon {
+    i {
+      font-size: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+  .reasons {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .review {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .blog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact-section {
+    .contact-content {
+      padding: 50px 0px;
+      .main-class {
+        .contact-title {
+          p {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+          }
+
+          address {
+            padding: 8%;
+          }
+
+          .home_icon i {
+            font-size: 40px;
+          }
+
+          address span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .contact-area{
+      .contact-form{
+        form{
+          padding: 50px 0;
+        }
+      }
+    }
+  }
+}

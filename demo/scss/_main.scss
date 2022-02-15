@@ -1,0 +1,552 @@
+.social-icon {
+  a {
+    transition: all 0.5s ease 0s;
+    &:hover {
+      color: $theme-color-primary-light;
+    }
+  }
+  i {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.5s ease 0s;
+    &:hover {
+      color: $theme-color-primary-light;
+    }
+  }
+}
+
+// home section
+
+.home-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(rgba(0, 94, 16, 0.8), rgba(0, 94, 16, 0.8)),
+    url(../images/bg/loan.jpg) no-repeat center;
+  background-size: cover;
+  .home-caption {
+    .home-title {
+      font-size: 42px;
+      line-height: 46px;
+      color: $theme-color-white;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .home-text {
+      color: $theme-color-white;
+      margin-bottom: 36px;
+    }
+    .loan-pricing-rate {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .loan-price {
+        margin-bottom: 15px;
+        .loan-priceing-one {
+          font-size: 32px;
+          color: $theme-color-white;
+          font-weight: 600;
+          margin-right: 0;
+          display: block;
+        }
+        small {
+          color: $theme-color-white;
+          text-transform: uppercase;
+          font-size: 85%;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .btn {
+    font-size: 14px;
+    border-radius: 2px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 19px 30px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    font-weight: 600;
+  }
+  .btn-primary {
+    margin-bottom: 10px;
+    background-color: $theme-color-primary;
+    color: $theme-color-white;
+    border-color: $theme-color-white;
+    transition: all 0.5s ease 0s;
+
+    &:hover {
+      color: $theme-color-primary;
+      background-color: transparent;
+      border-color: $theme-color-primary;
+      transition: all 0.5s ease 0s;
+    }
+
+    &:focus {
+      background-color: rgba($theme-color-primary, 0.1) !important;
+      border-color: $theme-color-primary !important;
+      color: $theme-color-primary;
+      box-shadow: 0 0 0 0.2rem rgba($theme-color-primary, 0.1) !important;
+    }
+  }
+  .btn-secondary {
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: $theme-color-white;
+    border-color: $theme-color-white;
+    transition: all 0.5s ease 0s;
+    &:focus {
+      border-color: rgba($theme-color-primary, 0.1);
+      box-shadow: 0 0 0 0.2rem rgba($theme-color-primary, 0.1);
+    }
+    &:hover {
+      color: $theme-color-white;
+      background-color: $theme-color-primary;
+      border-color: $theme-color-white;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .home-form {
+    background-color: $theme-color-white;
+    padding: 30px;
+    border-radius: 4px;
+    h2 {
+      font-size: 1.75rem;
+    }
+    .form-control {
+      width: 100%;
+      height: 52px;
+      padding: 6px 16px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-image: none;
+      background-color: $theme-color-white;
+      border-radius: 4px;
+
+      margin-bottom: 10px;
+      border: 2px solid $theme-color-light-blue;
+      &:focus {
+        border-color: rgba($theme-color-primary, 0.1);
+        box-shadow: 0 0 0 0.2rem rgba($theme-color-primary, 0.1);
+      }
+    }
+
+    .control-label {
+      text-transform: uppercase;
+      color: $bg-color-blue;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .slide-ranger {
+      .ui-widget-header {
+        background-color: $theme-color-primary;
+      }
+      .ui-widget {
+        .ui-widget-content {
+          border: 1px solid $theme-color-primary;
+        }
+      }
+      .ui-slider {
+        .ui-slider-handle {
+          border-radius: 100%;
+          border: 3px solid $theme-color-primary;
+        }
+      }
+      .ui-state-active {
+        background-color: $theme-color-primary;
+      }
+      &:focus {
+        border-color: rgba($theme-color-primary, 0.1);
+        box-shadow: 0 0 0 0.2rem rgba($theme-color-primary, 0.1);
+      }
+    }
+  }
+}
+
+// reason section
+.reasons {
+  p {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+  }
+  .reason-single {
+    .reason-single-content {
+      padding-left: 20px;
+
+      p {
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+// review
+.review {
+  .review-title {
+    p {
+      margin-bottom: 50px;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .review-details {
+    background: $theme-color-white;    
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    .review-details-text {
+      font-family: "Open Sans", sans-serif;
+      color: $bg-color-blue;
+      line-height: 32px;
+      font-weight: 400;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 20px;
+    }
+    .review-client {
+      margin-bottom: 10px;
+      .review-icon {
+        color: $theme-color-review;
+      }
+    }
+    .reviewer-name {
+      color: $bg-color-blue;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .slick-slide img {
+    display: inline;
+  }
+  .slickcenter-left-handle {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: -5%;
+    cursor: pointer;
+    color: $theme-color-primary;
+    transform: translateY(-50%);
+  }
+
+  .slickcenter-right-handle {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    right: -10%;
+    cursor: pointer;
+    color: $theme-color-primary;
+    padding-left: 10px;
+    transform: translateY(-50%);
+  }
+}
+
+// faq section
+
+.faq {
+  .faq-title {
+    p {
+      margin-bottom: 50px;
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .icon-details {
+    font-size: 48px;
+    color: $theme-color-primary;
+  }
+
+  .btn {
+    font-size: 14px;
+    border-radius: 2px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 19px 30px;
+    font-weight: 400;
+    transition: all 0.5s ease 0s;
+  }
+  .btn-primary {
+    background-color: $theme-color-primary;
+    color: $theme-color-white;
+    border-color: $theme-color-primary;
+    &:focus {
+      border-color: rgba($theme-color-primary, 0.1);
+      box-shadow: 0 0 0 0.2rem rgba($theme-color-primary, 0.1);
+    }
+    &:hover {
+      color: $theme-color-primary;
+      background-color: $theme-color-white;
+      border-color: $theme-color-primary;
+    }
+  }
+  .faq-details {
+    .faq-details-card {
+      box-shadow: 0 4px 26px 3px rgba($theme-color-primary, 0.1);
+      background-color: $theme-color-white;
+      border-radius: 3px;
+      margin-bottom: 30px;
+      &:not(:last-of-type) {
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+      &:not(:first-of-type) {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+      }
+      .faq-details-card-header {
+        background-color: $theme-color-white;
+        border-radius: 4px;
+        padding: 8px 10px;
+        border-bottom: 0px;
+        a {
+          i {
+            font-size: 20px;
+          }
+          &:hover {
+            color: $theme-color-primary-light;
+            text-decoration: none;
+          }
+        }
+      }
+      .faq-card-body {
+        padding: 10px 20px 20px 20px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// blog
+.blog {
+  p {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .blog-content {
+    border: 1px solid $theme-color-white;
+    background: $theme-color-white;
+    transition: all 0.5s ease 0s;
+
+    &:hover {
+      box-shadow: 0 4px 26px 3px rgba($theme-color-primary, 0.25);
+      margin-top: -5px;
+    }
+    .blog-text {
+      padding: 20px 20px 30px 20px;
+      font-weight: 500;
+      text-align: center;
+      h4 {
+        font-size: 14px;
+        letter-spacing: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: $theme-color-primary;
+        font-weight: bold;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        a {
+          font-size: 20px;
+          .blog-title {
+            color: $theme-color-primary;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.5s ease 0s;
+          }
+          &:hover {
+            text-decoration: none;
+            color: $theme-color-primary-light;
+          }
+        }
+      }
+
+      .btn {
+        color: $theme-color-primary;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 4px;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+      }
+
+      .btn-outline {
+        &:focus {
+          border-color: rgba($theme-color-primary, 0.1);
+          box-shadow: 0 0 0 0.2rem rgba($theme-color-primary, 0.1);
+        }
+        &:hover {
+          color: $theme-color-white;
+          background-color: $theme-color-primary;
+        }
+      }
+    }
+  }
+}
+
+.contact-section {
+  width: 100%;
+  p {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .contact-content {
+    padding: 80px 0px;
+    background-color: rgba($theme-color-primary, 1);
+    background-image: url(../images/bg/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .main-class {
+      .contact-title {
+        h1 {
+          color: $theme-color-white;
+          font-weight: 700;
+        }
+
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          color: $theme-color-white;
+        }
+        address p {
+          color: $theme-color-white;
+          font-weight: 400;
+          display: inline-block;
+          overflow: hidden;
+          width: 100%;
+          margin-top: 15px;
+        }
+        address {
+        }
+
+        .home_icon i {
+          color: $theme-color-white;
+          font-size: 65px;
+        }
+        .address-title{
+          font-size: 16px;
+        }
+        .contact-icon {
+          color: #fff;
+          margin-right: 20px;
+        }
+
+        address p {
+          color: #fff;
+          margin-bottom: 10px;
+        }
+        address span {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .contact-area {
+    .contact-form {
+      
+      p {
+        color: $theme-color-primary-light;
+        font-size: 15px;
+        font-weight: 400;
+      }
+      form {
+        padding: 0 16px 0 32px;
+        .form-group {
+
+          input.form-control {
+            height: 52px;
+            padding: 6px 16px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-image: none;
+            background-color: $theme-color-white;
+            border-radius: 4px;
+            border: 2px solid $theme-color-light-blue;
+            &:focus {
+              box-shadow: unset;
+              border-color: rgba($theme-color-primary, 0.4);
+            }
+    
+            
+          }
+          textarea {
+            background-image: none;
+            background-color: $theme-color-white;
+            border-radius: 4px;
+            border: 2px solid $theme-color-light-blue;
+            &:focus {
+              box-shadow: unset;
+              border-color: rgba($theme-color-primary, 0.4);
+            }
+          }
+          button {
+            width: 100%;
+            background: $theme-color-primary;
+            color: $theme-color-white;
+            border: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+// footer
+
+footer {
+  background-color: $theme-color-primary;
+  padding: 25px 0;
+  color: $theme-color-white;
+  text-align: center;
+  border-top: 1px solid rgba($theme-color-white, 0.2);
+  p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  ul {
+    margin-bottom: 0;
+
+    li {
+      display: inline;
+      padding-left: 5px;
+      font-size: 13px;
+      color: $theme-color-white;
+      a {
+        color: $theme-color-white;
+        &:hover {
+          color: $theme-color-primary-light;
+        }
+      }
+    }
+  }
+}

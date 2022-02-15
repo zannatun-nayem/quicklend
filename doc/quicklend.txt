@@ -1,0 +1,71 @@
+ Title : Quick Lend - loan landing page website template
+
+ Keyword: company, loan,loan template, website template, bootstrap template, landing page,Quick lend, multipurpose
+
+
+
+<p> Quick Lend is a HTML loan landing page website template based on Bootstrap for Loan Landing Page .Quick Lend is support in all types of Devices. Everyone can Use and Customize the Code who has some basic knowledge about HTML and CSS. You can represent your company loan service by this landing page. </p>
+
+<p> Quick Lend is suitable for all types of loan company who is looking for Loan landing page. </p>
+
+<h3> Sections of Quick Lend : </h3>
+<ul>
+    <li> Top Header Section</li>
+    <li> Home Area Section</li>
+    <li> Reason Section</li>
+    <li> Review Section</li>
+    <li> About Section</li>
+    <li> Blog Section</li>
+    <li> Contact Section</li>
+    <li> Footer Section</li>
+</ul>
+
+<h3> Features of Quick Lend:</h3>
+<ul>
+    <li>W3c Valid Markup HTML</li>
+    <li>Fully Responsive on any Device</li>
+    <li>Built with Bootstrap 4X</li>
+    <li>Working Quotation Form</li>
+    <li>Working Contact Form</li>	
+    <li>Clean, Modern & Beautiful Design</li>
+    <li>Cross-bowser Compatible with Edge, IE11+, Firefox, Safari, Opera, Chrome</li>
+    <li>Google Fonts</li>
+    <li>Font Awesome 5.15.2</li>
+    <li>Smooth Transition Effects</li>
+    <li>Bootstrap Components Compatible</li>
+    <li>Well Commented Code</li>
+    <li>Well Documentation</li>
+    <li>Easy Customization</li>
+    <li>Quick Support</li>
+</ul>
+
+<h3> Files Included: </h3>
+<ul>
+    <li>HTML Files</li>
+    <li>Included Font Awesome </li>
+    <li>Supporting CSS,SASS, JS files</li>
+    <li>mailer.php for Contact form</li>
+    <li>lead.php for quote form</li>
+    <li>Documentation in HTML</li>
+</ul>
+
+<h3> Font Used:</h3>
+<ul>
+    <li><a href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">Open Sans</a></li>
+</ul>
+
+<h3>Icon Used:</h3>
+<ul>
+    <li><a href="https://fontawesome.com/icons?d=gallery"> Font Awesome 5.15.2</a></li>
+</ul>
+
+<h3>Credits</h3>
+<ul>
+    <li><a href="https://getbootstrap.com/">Twitter Bootstrap</a></li>
+    <li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+    <li><a href="https://fontawesome.com/icons?d=gallery">Font Awesome 5.15.2 </a></li>
+</ul>
+
+<h3>Support</h3>
+<p>If you have any queries or need any special customizing or help for using this template please feel free to contact us via info@theThemely.com. If you have a moment, please rate our item, We will love it very much! Thank you.
+</p>
